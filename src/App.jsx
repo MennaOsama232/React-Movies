@@ -3,7 +3,7 @@ import Home from "./Components/Pages/Home";
 import SideBar from "./Components/SideBar";
 import Movies from "./Components/Pages/Movies";
 import { Route,Routes } from "react-router-dom";
-import ProductsModule from "./Components/Pages/ProductsModule";
+import MoviesModule from "./Components/Pages/MoviesModule";
 
 function App() {
     return ( <div className = "App bg-dark text-light" >
@@ -16,7 +16,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="movies" element={<Movies/>}/>
-                <Route path="products/*" element={<ProductsModule/>}/>
+                <Route path="/*" element={<MoviesModule/>}/>
             
             </Routes></div>
         </div>

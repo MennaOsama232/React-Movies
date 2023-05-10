@@ -17,7 +17,7 @@ function Navbar (){
         <Link to={"/movies"} className="nav-link text-light">Movies</Link>
       </li>
       <li className="nav-item">
-        <Link to={"/products"} className="nav-link text-light">Products</Link>
+        <Link to={"/moviesList"} className="nav-link text-light">List</Link>
       </li>
       
       
